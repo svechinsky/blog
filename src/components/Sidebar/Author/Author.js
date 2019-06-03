@@ -1,7 +1,7 @@
 // @flow
-import React from 'react';
-import { withPrefix, Link } from 'gatsby';
-import styles from './Author.module.scss';
+import React from "react";
+import { withPrefix, Link } from "gatsby";
+import { AuthorPhoto, AuthorTitle, AuthorSubtitle, AuthorLink } from "./AuthorStyled.jsx";
 
 type Props = {
   author: {
@@ -13,27 +13,26 @@ type Props = {
 };
 
 const Author = ({ author, isIndex }: Props) => (
-  <div className={styles['author']}>
-    <Link to="/">
-      <img
+  <div>
+    <AuthorLink to="/">
+      <AuthorPhoto
         src={withPrefix(author.photo)}
-        className={styles['author__photo']}
         width="75"
         height="75"
         alt={author.name}
       />
-    </Link>
+    </AuthorLink>
 
-    { isIndex ? (
-      <h1 className={styles['author__title']}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
-      </h1>
+    {isIndex ? (
+      <AuthorTitle>
+        <AuthorLink to="/">{author.name}</AuthorLink>
+      </AuthorTitle>
     ) : (
-      <h2 className={styles['author__title']}>
-        <Link className={styles['author__title-link']} to="/">{author.name}</Link>
-      </h2>
+      <AuthorTitle>
+        <AuthorLink to="/">{author.name}</AuthorLink>
+      </AuthorTitle>
     )}
-    <p className={styles['author__subtitle']}>{author.bio}</p>
+    <AuthorSubtitle>{author.bio}</AuthorSubtitle>
   </div>
 );
 
