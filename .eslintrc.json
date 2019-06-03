@@ -52,7 +52,7 @@
       "no-shadow": 0,
       "quotes": [
         2,
-        "single"
+        "double"
       ],
       "jsx-quotes": [
         0,
