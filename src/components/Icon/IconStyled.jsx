@@ -1,4 +1,6 @@
-.icon {
+import styled from "styled-components";
+
+export const Icon = styled.svg`
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -8,12 +10,12 @@
   font-style: normal;
   font-weight: normal;
   speak: none;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   font-variant: normal;
   text-transform: none;
   line-height: 1em;
-  margin-left: .2em;
+  margin-left: 0.2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+`;

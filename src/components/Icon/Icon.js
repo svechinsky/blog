@@ -1,6 +1,7 @@
 // @flow
-import React from 'react';
-import styles from './Icon.module.scss';
+import React from "react";
+
+import { Icon as StyledIcon } from "./IconStyled";
 
 type Props = {
   icon: {
@@ -10,9 +11,9 @@ type Props = {
 };
 
 const Icon = ({ icon }: Props) => (
-  <svg className={styles['icon']} viewBox={icon.viewBox}>
+  <StyledIcon viewBox={icon.viewBox}>
     <path d={icon.path} />
-  </svg>
+  </StyledIcon>
 );
 
 export default Icon;
