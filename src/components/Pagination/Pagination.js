@@ -25,16 +25,6 @@ const Pagination = ({
   hasNextPage,
   hasPrevPage
 }: Props) => {
-  // const prevClassName = cx({
-  //   "pagination__prev-link": true,
-  //   "pagination__prev-link--disable": !hasPrevPage
-  // });
-
-  // const nextClassName = cx({
-  //   "pagination__next-link": true,
-  //   "pagination__next-link--disable": !hasNextPage
-  // });
-
   return (
     <StyledPagination>
       <PaginationPrev>
