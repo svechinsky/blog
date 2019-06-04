@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import type { Node as ReactNode } from "react";
 import { ThemeProvider } from "styled-components";
 
+// Leaving scss here for post css
 import styles from "./Layout.module.scss";
 import theme from "../../theme/theme";
 
