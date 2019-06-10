@@ -18,7 +18,7 @@ module.exports = {
     logoText: 'yoni',
     defaultTheme: 'dark',
     postsPerPage: 5,
-    showMenuItems: 2,
+    showMenuItems: 3,
     menuMoreText: 'Show more',
     mainMenu: [
       {
@@ -26,8 +26,12 @@ module.exports = {
         path: '/about',
       },
       {
-        title: 'Example',
-        path: '/example',
+        title: 'Contact',
+        path: '/contact',
+      },
+      {
+        title: 'Weekly Reads',
+        path: '/weekly',
       },
     ],
   },

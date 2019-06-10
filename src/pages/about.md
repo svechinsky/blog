@@ -5,21 +5,24 @@ author: "Yoni"
 path: "/about"
 ---
 
-## Hi there
+## Hi there,
 
-I'm Yoni,<br/>
-22 years old, based out of TLV but traveling often.<br/>
-And if you're reading this page it's because you want to know more about me.<br/>
-So let's start with a photo:
-<div style="width:400px;alignS:center;">
+I'm Yoni,  
+22 years old, based out of TLV but traveling often.
+<div style="width:400px;align:center;">
 <img src="../images/me.jpg" width="100" style="width:400px;"/>
 </div>
-<br/>
 
-Now let me tell you a bit about me. 
+I like to work on problems that are either:
+1. Important
+2. Interesting
 
-- I have a strong belief that techonology can make the world a better by empowering individuals.
-- I'm lucky man. Mostly becasue I spend most of my time doing just that by creating software. 
-- I find it really easy to get interested in new things, so if you think there is something I should read about email me at [svechinskyy@gmail.com](mailto:svechinskyy@gmail.com)  
+Important problems are about helping people.  
+I try and solve them by creating techonology (mostly software) to empower individuals.
 
-Also email me if you think we should work/collaborate together, or if you have any suggestion for improvement of anything you see here.
+Intereting problems are about experiencing a moment of __aha__ when you solve them.  
+
+This blog is a collection of my thoughts on various topics.  
+One noteworthy section of it is the [weekly reads](/weekly) where I share interesting things I'm reading/recently read and some commentary.
+
+If you think we should work together/collaborate just [contact me](/contact).
