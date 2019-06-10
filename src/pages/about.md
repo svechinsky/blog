@@ -1,23 +1,25 @@
 ---
 title: "About"
-date: "2018-07-19"
-author: "Radek"
+date: "2019-06-10"
+author: "Yoni"
 path: "/about"
 ---
 
 ## Hi there
 
-My name is Radek and I'm the author of this starter. I made it to help you present your ideas easier.
+I'm Yoni,<br/>
+22 years old, based out of TLV but traveling often.<br/>
+And if you're reading this page it's because you want to know more about me.<br/>
+So let's start with a photo:
+<div style="width:400px;alignS:center;">
+<img src="../images/me.jpg" width="100" style="width:400px;"/>
+</div>
+<br/>
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+Now let me tell you a bit about me. 
 
-This starter is pretty basic and covers all of the essentials. All you have to do is start typing!
+- I have a strong belief that techonology can make the world a better by empowering individuals.
+- I'm lucky man. Mostly becasue I spend most of my time doing just that by creating software. 
+- I find it really easy to get interested in new things, so if you think there is something I should read about email me at [svechinskyy@gmail.com](mailto:svechinskyy@gmail.com)  
 
-The starter includes:
-
-- **light/dark mode**, depending on your preferences
-- great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
-- nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
-- responsive youtube/vimeo etc. videos thanks to [**gatsby-remark-embed-video**](https://github.com/borgfriend/gatsby-remark-embed-video)
-
-So, there you have it... enjoy!
+Also email me if you think we should work/collaborate together, or if you have any suggestion for improvement of anything you see here.
