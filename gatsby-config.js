@@ -30,7 +30,7 @@ module.exports = {
         path: '/contact',
       },
       {
-        title: 'Weekly Reads',
+        title: 'Weekly Notes',
         path: '/weekly',
       },
     ],

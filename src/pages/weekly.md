@@ -10,7 +10,7 @@ Going to be sharing interesting stuff I read/overheard on a weekly basis + my op
 
 ## 09/06/19
 
-<details><summary>Group at Imperial college in London analyzes hurts with MRI based data and autoencoders, can read a bit about it <a href="https://lms.mrc.ac.uk/ai-analysis-predicts-survival-from-heart-movement/">here</a></summary>
+<details><summary>Group at Imperial college in London analyzes hearts with MRI based data and autoencoders, can read a bit about it <a href="https://lms.mrc.ac.uk/ai-analysis-predicts-survival-from-heart-movement/">here</a></summary>
 
 > Really personally exciting. Heart disease runs in my family and any prospects of earlier/better discovery are making me feel just a bit safer.
 > They have further research ongoing to map more data on top of the functional one:
