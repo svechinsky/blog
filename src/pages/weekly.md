@@ -4,10 +4,41 @@ date: "2019-06-10"
 author: "Yoni"
 path: "/weekly"
 ---
-Going to be sharing interesting stuff I read/overheard on a weekly basis + my opinion
+Interesting stuff I read/overheard on a weekly basis + my opinion
+Feel free to correct me if you find any inaccuracies.
+
+---
+## 30/06/19
+
+
+---
+## 23/06/19
+
+<details><summary>Termites are building huge cities of clay</summary>
+
+> I find this particularly interesting from 2 perspectives. 
+> 1. First spontaneous organization of complex structures by seemingly simple creatures
+> 2. Can we learn something from it and use it to optimize the way we design our buildings/cities?
+>
+> Termites must be optimizing for something in their construction, maybe efficiency of getting from everywhere to everywhere in the colony?
+
+</details>
+
 
 ---
 ## 16/06/19
+<details><summary>Mental health diagnosis and treatment is too much top down - it's getting replaced</summary>
+
+ > I've been to the happiness day hackathon on Saturday.
+ > One of the talks there was about how different symptoms can be classified as the same mental illness.  
+ > The classic example being all the symptoms that fall under depression: insomnia, anxiety, sadness and more.  
+ > But we still classify any combination of those as depression, and as result treat them the same way.
+ > This often leads to initial treatment being ineffective and then a few critical months of trial and error of several medications.
+ >
+ > My thinking is that a better, more individual symptom based diagnosis can help provide much better and more accurate treatment from the get go. 
+</details>
+
+
 
 <details><summary><a href="https://medium.com/@ercwl/the-libra-masterplan-dc9560e41c87">The Libra Masterplan</a> - by Eric Wall</summary>
 
