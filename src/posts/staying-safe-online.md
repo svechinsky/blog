@@ -1,7 +1,7 @@
 ---
 title: "Staying safe in the world wide web"
 path: "/staying-safe-online"
-date: "2019-06-17"
+date: "2019-07-06"
 # coverImage: "../images/hello.jpg"
 author: "Yoni"
 excerpt: "Investing in security is hard. I avoided doing it for a long while. here I write a bit about why I decided to finally take the time to do it.
