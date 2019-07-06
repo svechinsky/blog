@@ -6,7 +6,7 @@ date: "2019-07-06"
 author: "Yoni"
 excerpt: "Investing in security is hard. I avoided doing it for a long while. here I write a bit about why I decided to finally take the time to do it.
 I also outline what I did."
-tags: ["security", "cryptography"]
+tags: ["security", "yubikey", "privacy"]
 ---
 
 ### A security horror story
