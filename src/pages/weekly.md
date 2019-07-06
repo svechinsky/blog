@@ -4,7 +4,7 @@ date: "2019-06-10"
 author: "Yoni"
 path: "/weekly"
 ---
-Interesting stuff I read/overheard on a weekly basis + my opinion
+Interesting stuff I read/overheard on a weekly basis + my opinion.  
 Feel free to correct me if you find any inaccuracies.
 
 ---
