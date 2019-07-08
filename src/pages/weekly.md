@@ -9,6 +9,26 @@ Feel free to correct me if you find any inaccuracies.
 
 ---
 ## 30/06/19
+<details><summary>Libra is evil!? - after listening to a talk by Maya Zehavi</summary>
+
+> She has high conviction that Libra is the evil child of Zuck.
+> Most interesting is how despite being pseudonymous any of the "cool" use cases for Libra (like paying for Uber) is going to be tightly regulated.  
+> The way this will happen is by having service providers who are authorized sellers of Libra (can exchange fiat for libra) have users go through KYC.
+> The dangerous part is they apparently have to share this KYC data among all authorized resellers. Imagine going on an Uber and then Lyft having your data.
+> 
+> Another interesting thought expressed by Meni (head of the Israeli Bitcoin Association) is that Libra is not competing with Bitcoin or other altcoins. They offer different and sometimes complementary value propositions.  
+> My thinking was that Libra competes mainly with USD. Will be interesting to see adoption/ state sponsored adoption in countries that need to lower the value of dollar due to debt (Japan?). 
+</details>
+
+
+<details><summary><a href="https://medium.com/@checkwarner/a-seed-investing-framework-5c7844157baa">A seed investing framework</a></summary>
+
+> I found this to be pretty standard in terms of what it covers. Questions relating to market, product, team etc.  
+> Two interesting points that might be worth noting:
+> - The story about Matt at the beginning. Interesting how VCs develop an internal representation of companies they might not even be aware of.
+>   I wonder to what extend this gets exploited by non honest founders.
+> - At the end of the day, one of the points, the team question, takes 90% of the time. Just shows how everything is a always about people. Who do you invest with is a big part of what do you invest in  
+</details>
 
 
 ---
