@@ -8,6 +8,30 @@ Interesting stuff I read/overheard on a weekly basis + my opinion.
 Feel free to correct me if you find any inaccuracies.
 
 ---
+
+## 07/07/19
+<details><summary href="https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/"><a>AI beating humans in poker</a></summary>
+
+> So for the first time an AI has successfully beat people playing poker.
+> It's important cause unlike chess, go, checkers or any other game AI researchers have "solved" so far poke is an imperfect information game.
+>
+> An imperfect information game is one where not all the information is available to all players.  
+> In the case of poker each player has their own cards that other players. 
+> This leads to the decisions made being dependent not only on how good they are but also on how likely they are and how other players might predict them.  
+> Being predictable has a cost. Bluffing occasionally is necessary, always bluffing is disastrous.
+>
+> First time I see regret minimization as loss function, will keep in mind.  
+> The other interesting innovation here is how they handle searching for the next move.
+> Usually searching for moves involves deep searches through lots of different game states (like chess) looking far ahead.
+> Their innovation in search is actually spilt into 2:
+> 1. They cleverly combined various states that are similar enough to significantly reduce the size of the tree.
+> 2. They accounted for the imperfect information by considering a few "modes" of thinking the opponent playing against them can have.  
+> One biased for each possible action (call, raise, fold) + the default one.
+</details>
+
+
+
+---
 ## 30/06/19
 <details><summary>Libra is evil!? - after listening to a talk by Maya Zehavi</summary>
 
