@@ -1,39 +1,39 @@
-const postCssPresetEnv = require(`postcss-preset-env`)
-const postCSSNested = require('postcss-nested')
-const postCSSUrl = require('postcss-url')
-const postCSSImports = require('postcss-import')
-const cssnano = require('cssnano')
-const postCSSMixins = require('postcss-mixins')
+const postCssPresetEnv = require(`postcss-preset-env`);
+const postCSSNested = require("postcss-nested");
+const postCSSUrl = require("postcss-url");
+const postCSSImports = require("postcss-import");
+const cssnano = require("cssnano");
+const postCSSMixins = require("postcss-mixins");
 
 module.exports = {
   siteMetadata: {
     title: `Yoni Svechinsky`,
     description: `Things I think about`,
-    copyrights: '',
+    copyrights: "",
     author: `@svechinsky`,
     logo: {
-      src: '',
-      alt: '',
+      src: "",
+      alt: ""
     },
-    logoText: 'yoni',
-    defaultTheme: 'dark',
+    logoText: "yoni",
+    defaultTheme: "dark",
     postsPerPage: 5,
     showMenuItems: 3,
-    menuMoreText: 'Show more',
+    menuMoreText: "Show more",
     mainMenu: [
       {
-        title: 'About',
-        path: '/about',
+        title: "About",
+        path: "/about"
       },
       {
-        title: 'Contact',
-        path: '/contact',
+        title: "Contact",
+        path: "/contact"
       },
       {
-        title: 'Weekly Notes',
-        path: '/weekly',
-      },
-    ],
+        title: "Weekly Notes",
+        path: "/weekly"
+      }
+    ]
   },
   plugins: [
     `babel-preset-gatsby`,
@@ -42,22 +42,22 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,
-        path: `${__dirname}/src/posts`,
-      },
+        path: `${__dirname}/src/posts`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages`,
-      },
+        path: `${__dirname}/src/pages`
+      }
     },
     {
       resolve: `gatsby-plugin-postcss`,
@@ -68,15 +68,15 @@ module.exports = {
           postCSSMixins(),
           postCSSNested(),
           postCssPresetEnv({
-            importFrom: 'src/styles/variables.css',
+            importFrom: "src/styles/variables.css",
             stage: 1,
-            preserve: false,
+            preserve: false
           }),
           cssnano({
-            preset: 'default',
-          }),
-        ],
-      },
+            preset: "default"
+          })
+        ]
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -85,31 +85,38 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-embed-video',
+            resolve: "gatsby-remark-embed-video",
             options: {
               related: false,
-              noIframeBorder: true,
-            },
+              noIframeBorder: true
+            }
           },
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
-              quality: 100,
-            },
+              quality: 100
+            }
           },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: 'language-',
+              classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
-              noInlineHighlight: false,
-            },
+              noInlineHighlight: false
+            }
           },
-        ],
-      },
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -120,14 +127,14 @@ module.exports = {
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
         display: `minimal-ui`,
-        icon: `src/images/hello-icon.png`,
-      },
+        icon: `src/images/hello-icon.png`
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-85601245-2",
-      },
-    },
-  ],
-}
+        trackingId: "UA-85601245-2"
+      }
+    }
+  ]
+};
