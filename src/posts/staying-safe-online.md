@@ -51,7 +51,7 @@ I should get a YubiKey.
 So on one sunny Sunday, I did just that.
 I went to the local reseller and bought a pair of [YubiKey5 Series](https://www.yubico.com/products/yubikey-5-overview/).
 
-I get really excited when I get new stuff. So I went on a binge of learning what I should do with my YubiKeys, an initial list I came up with was:
+I get excited when I get new stuff. So I went on a binge of learning what I should do with my YubiKeys, an initial list I came up with was:
 -  Move all my accounts to MFA with a YubiKey + backup
 -  Set up fresh PGP keys and store them on the token
 -  Finally set up Pass as my password manager and leave cloud services like LastPass for good
@@ -72,7 +72,7 @@ PGP has always been there, quite literally, since it was invented before I was b
 It has a UX to match and the only time I've ever used it was when transferring a private key to a fellow developer.
 
 So the hell would I care about creating PGP keys and putting them on my yubikey?  
-Mostly because I think it's really cool. Some other benefits:
+Mostly because I think it's cool. Some other benefits:
 1. Finally signing git commits.
 2. Sending and receiving encrypted things online.
 3. No more worrying about a million ssh keys since PGP keys can double as ssh identity.
