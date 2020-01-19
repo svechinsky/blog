@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2019-06-10"
+date: "2020-01-10"
 author: "Yoni"
 path: "/about"
 ---
