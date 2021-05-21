@@ -13,7 +13,7 @@ Ways to contact me, in order of preference:
 
 [Linkedin](https://www.linkedin.com/in/svechinsky/) 
 
-And, if you ever want to send me something private or verify my signature:
+<!-- And, if you ever want to send me something private or verify my signature:
 <details><summary>My PGP key</summary>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -125,4 +125,4 @@ C82agDtlT71rqn4pyzJ8mLsTIH2IH7FXy0+SYRykTNd/vJucUcHCCQTt05ywc1jR
 mn+T
 =zLN9
 -----END PGP PUBLIC KEY BLOCK-----
-</details>
+</details> -->
