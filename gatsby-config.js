@@ -28,10 +28,6 @@ module.exports = {
       {
         title: "Contact",
         path: "/contact"
-      },
-      {
-        title: "Weekly Notes",
-        path: "/weekly"
       }
     ]
   },
